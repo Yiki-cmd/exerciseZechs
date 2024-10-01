@@ -1,0 +1,26 @@
+/* Default styles */
+.color-box{
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+}
+/* styles for screens larger than 768px */
+@media(min-width:768px){
+    .color-box{
+        background-color: lightgreen;
+    }
+}
+
+/* styles for screens smaller than 480px */
+@media(max-width:480px){
+    .color-box{
+        background-color: lightcoral;
+    }
+}
+
+/* Bonus: change color based on orientation */
+@media(orientation:portrait){
+    .color-box{
+        background-color: lavender;
+    }
+}

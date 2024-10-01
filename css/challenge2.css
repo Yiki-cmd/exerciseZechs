@@ -1,0 +1,35 @@
+/* Basic styles for navbar */
+.navbar{
+    background-color: #333;
+    overflow: hidden; 
+}
+.nav-links{
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.nav-links li{
+    display: inline-block;
+}
+.nav-links li a{
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: block;
+}
+
+/* Media query for screens smaller than 600px */
+@media(max-width:600px){
+    .nav-links li{
+        display: block;
+    }
+}
+.nav-links{
+    text-align: left;
+}
+
+/* Bonus: Change text color in vertical mode */
+.nav-links li a{
+    color:lightblue;
+}
