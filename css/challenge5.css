@@ -1,0 +1,31 @@
+/* Default styles for mobile(single column) */
+.card-container{
+    width: 100%;
+}
+.card{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+}
+/* Tablet view(two columns) */
+@media(min-width:600px) and (max-width:900px){
+    .card{
+        width:49%;
+        float:left;
+
+    }
+}
+
+/* Desktop view(three columns) */
+@media(min-width:900px){
+    .card{
+        width: 32%;
+        float:left;
+    }
+}
+
+/* Bonus: change card background color on hover */
+.card:hover{
+    background-color: lightgray;
+}
